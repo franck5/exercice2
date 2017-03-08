@@ -1,0 +1,30 @@
+div {
+	border: 1px solid red;
+}
+
+.haut, .services, .aPropos, .contact, .questions, .basDePage {
+	padding: 50px;
+	height: 25%;
+}
+.petitBandeau, .menu {
+	display: inline;
+}
+
+.logoCentre {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.menu {
+	text-align: right;
+	border: 1px solid blue;
+	margin-left: 70%;
+}
+
+.services,.contact { 
+	background-color: lightgrey;
+ }
+ .services div {
+ 	display: flex;
+ }
